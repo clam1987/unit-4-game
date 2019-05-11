@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <header>
+  <head>
     <title>WOW RPG</title>
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/reset.css">
-  </header>
+  </head>
 
   <body>
     <div class="container">
@@ -18,35 +18,35 @@
     </div>
 
     <div class="container">
-        <h2>1. Select a Character 2. Select a Defender 3. Attack! 4. Repeat 2 and 3</h2>
+        <h2>1. Select a Hero 2. Select an Enemy 3. Attack! 4. Repeat 2 and 3</h2>
     <div id="start">
         <div id="jaina">
             Jaina Proudmoore
             <br>
-            <img class="img" src="./assets/images/Jaina.png" alt="jaina">
+            <img class="img-thumbnail" src="./assets/images/Jaina.png" alt="">
             <br>
-            <p id="jainaHp"><h3>30</h3></p>
+            <p id="jainaHp">150</p>
         </div>
         <div id="anduin">
             Anduin Wrynn
             <br>
-            <img class="img" src="./assets/images/Anduin.png" alt="anduin">
+            <img class="img-thumbnail" src="./assets/images/Anduin.png" alt="">
             <br>
-            <p id="anduinHp"><h3>30</h3></p>
+            <p id="anduinHp">135</p>
         </div>
         <div id="valeera">
             Valeera Sanguinar
             <br>
-            <img class="img" src="./assets/images/Valeera.png" alt="valeera">
+            <img class="img-thumbnail" src="./assets/images/Valeera.png" alt="">
             <br>
-            <p id="valeeraHp"><h3>30</h3></p>
+            <p id="valeeraHp">110</p>
         </div>
         <div id="garrosh">
             Garrosh Hellscream
             <br>
-            <img class="img" src="./assets/images/Garrosh.png" alt="garrosh">
+            <img class="img-thumbnail" src="./assets/images/Garrosh.png" alt="">
             <br>
-            <p id="garroshHp"><h3>30</h3></p>
+            <p id="garroshHp">200</p>
         </div>
     </div>
 
@@ -56,16 +56,20 @@
     <div id="enemy"></div>
     <h4>Fighting Arena</h4>
     <button id="attack"><h4>Lok'tar Ogar!</h4></button>
+    <div id="message"></div>
+    <h4>Defender</h4>
+    <div id="defender"></div>
 
 </div>
+<script
+src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"
+></script>
+<script src="./assets/javascript/app.js"></script>
 
   </body>
 
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"
-></script>
-<script src="./assets/javascript/app.js"></script>
+
 
 </html>
