@@ -108,6 +108,7 @@ function attack(heroHp, heroName, heroAP) {
                 // attack - health dependent on clicks on hero
                 heroHp[hero] -= heroAP[enemyHero];
                 $(`#${hero}Value`).html(heroHp[hero]);
+      
             }
             // 3) display messages of battle
             if (heroHp[hero] > 0 && heroHp[enemyHero] > 0) {
